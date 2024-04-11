@@ -20,12 +20,14 @@ const Hero = () => {
             I am a resilient and disciplined individual who maintains a strong
             focus on achieving my goals until the desired outcome is met. I
             thrive on exceeding expectations and constantly pushing myself to go
-            above and beyond. With a strong drive for success, I embrace a
-            "lifetime learning " mindset, constantly seeking new opportunities
-            for personal and professional growth.
+            above and beyond.
+            <br className="sm:block hidden" /> With a strong drive for success,
+            I embrace a "lifetime learning " mindset, constantly seeking new
+            opportunities for personal and professional growth.
           </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   );
 };
