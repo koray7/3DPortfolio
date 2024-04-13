@@ -21,8 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import ga from "./company/ga.png";
+import dxc from "./company/DXC.png";
 import indeed from "./company/Indeed.png";
 import amd from "./company/amd.png";
 
@@ -52,8 +52,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  ga,
+  dxc,
   indeed,
   amd,
   carrent,
