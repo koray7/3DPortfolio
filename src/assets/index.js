@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import ga from "./company/ga.png";
-import dxc from "./company/DXC.png";
+import dxc from "./company/dxc.png";
 import indeed from "./company/Indeed.png";
 import amd from "./company/amd.png";
 
