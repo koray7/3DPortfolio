@@ -26,9 +26,9 @@ import dxc from "./company/dxc.png";
 import indeed from "./company/Indeed.png";
 import amd from "./company/amd.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import starwars from "./StarWars.png";
+import sports from "./sports.png";
+import giphy from "./giphy.png";
 
 export {
   KAlogo,
@@ -56,7 +56,7 @@ export {
   dxc,
   indeed,
   amd,
-  carrent,
-  jobit,
-  tripguide,
+  starwars,
+  sports,
+  giphy,
 };

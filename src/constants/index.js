@@ -19,9 +19,9 @@ import {
   indeed,
   amd,
   dxc,
-  carrent,
-  jobit,
-  tripguide,
+  starwars,
+  sports,
+  giphy,
   threejs,
 } from "../assets";
 
@@ -175,35 +175,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Working alongside with Koray has been an absolute pleasure. His dedication to our team's success and his exceptional problem-solving skills have truly set impressive. Koray is consistently brings a positive attitude to the table, even in the face of challenges, and his willingness to go above and beyond to assist his colleagues is commendable.",
+    name: "Annia Rosales",
+    designation: "Data Entry Clerk",
+    company: "AMD",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Koray is an invaluable asset to our team. His proactive approach to problem-solving and willingness to lend a helping hand have made a significant impact on our projects. He brings a positive energy to every task and consistently deliver high-quality results. It's a pleasure working with someone as dedicated and reliable as Koray.",
+    name: "Martin Pope",
+    designation: "Data Engineer",
+    company: "AMD",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Koray is an exceptional team member who consistently goes above and beyond to ensure the success of our projects. His attention to detail and strong work ethic make him an invaluable asset to our team. Whether it's tackling complex challenges or collaborating with colleagues, Koray is always brings enthusiasm and dedication to the table. Working alongside with him is both inspiring and rewarding.",
+    name: "Dawnena Key",
+    designation: "Technical Analyst/SWA",
+    company: "Indeed",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "STAR WARS API",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "STAR WARS FANS HERE! :) I built this app for to practice mainly API technologies and React.Js. This app would show all the information about Star Wars movie characters and more.!",
     tags: [
       {
         name: "react",
@@ -218,11 +218,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: starwars,
     source_code_link: "https://github.com/koray7",
   },
   {
-    name: "Job IT",
+    name: "Sports For Life",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -239,13 +239,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: sports,
     source_code_link: "https://github.com/koray7",
   },
   {
-    name: "Trip Guide",
+    name: "Giphy Search",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Find your Giphy! This app finds you a perfect giphy by using API technologies and more..",
     tags: [
       {
         name: "nextjs",
@@ -260,7 +260,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: giphy,
     source_code_link: "https://github.com/koray7",
   },
 ];
