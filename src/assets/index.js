@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import ga from "./company/ga.png";
 import dxc from "./company/dxc.png";
+import envestnet from "./company/envestnet.png";
 import indeed from "./company/Indeed.png";
 import amd from "./company/amd.png";
 
@@ -54,6 +55,7 @@ export {
   threejs,
   ga,
   dxc,
+  envestnet,
   indeed,
   amd,
   starwars,

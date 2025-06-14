@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   ga,
+  envestnet,
   indeed,
   amd,
   dxc,
@@ -116,15 +117,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Technical Analyst (Integrations)",
+    company_name: "Envestnet-MoneyGuidePro",
+    icon: envestnet,
+    iconBg: "#383E56",
+    date: "March 2024 - Current",
+    points: [
+      "Managing incoming integration support cases through Jira or directly from the partners/clients communication, ensuring timely resolution of technical issues.",
+      "Diagnosing and troubleshooting integration-related issues by analyzing trace logs, reviewing system architecture, and validating payload structures based on firm-specific configurations.",
+      "Communicating the root cause of issues and recommended solutions to partners and clients, referencing API responses, error codes, and payload validation outcomes.",
+      "Configuring and utilizing Postman for end-to-end API testing, including authentication setup, request validation, and verifying compatibility with partner-provided APIs.",
+      "Using Visual Studio and its debugger to walk through the code and pinpoint issues in the integration process.",
+      "Performing SSO certificate updates and managing configuration across multiple environments (DEV, QA, UAT, and Production) to ensure secure authentication and uninterrupted partner access.",
+      "Modifying codebases using Sourcetree for deployment and C# for small-scale enhancements, such as logic adjustments, credential handling, and API request formatting.",
+      "Executing and writing SQL queries to update configuration settings, adjust permissions, and verifying data accuracy across integration-specific tables.",
+    ],
+  },
+  {
     title: "Technical Analyst (Integrations Delivery)",
     company_name: "Indeed",
     icon: indeed,
     iconBg: "#383E56",
-    date: "October 2023 - Current",
+    date: "January 2023 - March 2024",
     points: [
-      "Troubleshooting, supporting, validating, and deploying all integrations, running queries to generate reports.",
-      "Supporting four different products, setting up new integrations(via XML or API) for new partners from start to end, and also supporting existing integrations.Utilizing internal testing tools, communicating with ATS partners and internal teams for a seamless integration or addressing any arising issues, via Salesforce and Jira tickets.",
-      "Worked on an internal testing tool called 'Source-Matching-Tool' that performs queries by the company domain name and generates a .CSV file when the user runs the Python code. (Collaborated with 3 other team members)",
+      "Troubleshot, supported, validated, and deployed all integrations, ran queries to generate reports.",
+      "Supported four different products, set up new integrations (via XML or API) for new partners from start to end, and also supported existing integrations. Utilized internal testing tools, communicated with ATS partners and internal teams for a seamless integration or addressed any arising issues, via Salesforce and Jira tickets.",
+      "Worked on building an internal testing tool called 'Source-Matching-Tool' that performs queries by the company domain name and generates a .CSV file when the user runs the Python code. (Collaborated with 3 other team members)",
     ],
   },
   {
@@ -132,7 +150,7 @@ const experiences = [
     company_name: "AMD(Austin Campus)",
     icon: amd,
     iconBg: "#E6DEDD",
-    date: "October 2022 - October 2023",
+    date: "December 2021 - January 2023",
     points: [
       "Provided support for end-users, including software and hardware troubleshoot, installation, and maintenance.",
       "Maintained and administer network systems and servers, including Print Servers, virtualization environments, and Remote Desktop Services.",
@@ -146,7 +164,7 @@ const experiences = [
     company_name: "DXC Technology",
     icon: dxc,
     iconBg: "#383E56",
-    date: "May 2022 - September 2022",
+    date: "January 2021 - December 2021",
     points: [
       "Coordinated resolution efforts with additional departments while monitoring and appraising clients",
       "Improved department processes and technologies through the investigation and identification of the root cause of technical problems",
@@ -160,7 +178,7 @@ const experiences = [
     company_name: "General Assembly(SWA Bootcamp)",
     icon: ga,
     iconBg: "#E6DEDD",
-    date: "October 2021 - March 2022",
+    date: "March 2020 - October 2020",
     points: [
       "Successfully completed 500+ hours of expert-led applied computer science fundamentals using the industry's most in demand technologies. Learned Front-end and Back-end languages including HTML, CSS, JavaScript, React.JS, NodeJS, Express, Python and Django and SQL database, Java and API technologies(Testing, integration, etc.)",
       "Developed over 15 projects, including a game called “CARD OF WAR” using HTML, CSS, JavaScript",
